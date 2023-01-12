@@ -1,9 +1,11 @@
 package Model;
 import View.*;
 
+import java.util.ArrayList;
+
 public class Model {
 
-    public int granne = 0;
+
 
     public Model(int width, int height) {
 
@@ -17,20 +19,17 @@ public class Model {
 
 
 
-
-
-        if (granne == 2 || granne== 3){
-
-
-        }
-            else{
-
-        }
-
     }
 
     public Shape[] getShapes() {
-        Point[] points = {new Point(5,5),new Point(6,5),new Point(7,5)};
-        return (Shape[])points;
+        ArrayList<Point> points = new ArrayList<Point>();
+        points.add(new Point(5,5));
+        points.add(new Point(6,5));
+        points.add(new Point(7,5));
+
+        Point[] pixelsToDisplay = new Point[points.size()];
+        points.toArray(pixelsToDisplay);
+
+        return (Shape[])pixelsToDisplay;
     }
 }

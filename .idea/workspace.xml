@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18c0973-eed4-4b7d-92af-93a9ac21479c" name="Changes" comment="yesss">
+    <list default="true" id="b18c0973-eed4-4b7d-92af-93a9ac21479c" name="Changes" comment="första lektion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Model.java" afterDir="false" />
     </list>
@@ -87,7 +87,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1671107852974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="första lektion">
+      <created>1671194357791</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1671194357791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yesss" />
-    <option name="LAST_COMMIT_MESSAGE" value="yesss" />
+    <MESSAGE value="första lektion" />
+    <option name="LAST_COMMIT_MESSAGE" value="första lektion" />
   </component>
 </project>
