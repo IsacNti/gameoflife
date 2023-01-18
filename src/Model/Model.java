@@ -5,21 +5,45 @@ import java.util.ArrayList;
 
 public class Model {
 
-
-
+    private int m=1;
+    private int x;
+    private int y;
     public Model(int width, int height) {
 
     }
 
     public void update() {
-    GetRules();
+        GetRules();
+
+        GetCells();
+
+        Point[] cells = (Point[]) getShapes();
+
+        for (int i =0; i < ; i++) {
+
+            cells[i].getX();
+            cells[i].getY();
+
+            System.out.println(x);
+            System.out.println(y);
+        }
+    }
+
+    private void GetCells() {
+        for (int i =0; i < ; i++) {
+
+            cells[i].getX();
+            cells[i].getY();
+
+            System.out.println(x);
+            System.out.println(y);
     }
 
     private void GetRules() {
 
-
-
     }
+
+
 
     public Shape[] getShapes() {
         ArrayList<Point> points = new ArrayList<Point>();
@@ -32,4 +56,5 @@ public class Model {
 
         return (Shape[])pixelsToDisplay;
     }
+
 }
